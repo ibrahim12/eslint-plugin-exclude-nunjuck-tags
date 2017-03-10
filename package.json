@@ -1,0 +1,33 @@
+{
+  "name": "eslint-plugin-exclude-nunjuck-tags",
+  "version": "0.0.1",
+  "description": "A preprocessor to remove nunjuck tags",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "eslint-nunjuck-parse-fix",
+    "eslint-nunjuck-fix"
+  ],
+  "author": {
+    "name": "Ibrahim Rashid",
+    "email": "irashid.com@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:ibrahim12/eslint-plugin-exclude-nunjuck-tags.git"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": { },
+  "devDependencies": {
+    "eslint": "^2.6.0",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "license": "BSD-3-Clause"
+}
