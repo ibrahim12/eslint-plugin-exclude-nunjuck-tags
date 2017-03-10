@@ -1,12 +1,12 @@
 # eslint-plugin-exclude-nunjuck-tags
 
-A preprocessor to remove nunjuck tags to prevent "Unexpected token {%" errors in .js files.
+A preprocessor to remove nunjuck tags to prevent `Unexpected token {%` errors in .js files.
 
 Nunjuck statements like `{% import 'layout.js' %}` creates eslint "Unexpected token{%" error.
 
 ## Under the hood
 
-By fact it just replaces occurrences of `{%...%}` for `` to prevent parsing of nunjuck code. 
+By fact it just replaces occurrences of `{%...%}` for `""` (empty string) to prevent parsing of nunjuck code. 
 
 ## Installation
 
@@ -36,9 +36,9 @@ Add `exclude-nunjuck-tags` to the plugins section of your `.eslintrc` configurat
 }
 ```
 
-It Replaces `nunjuck` block with empty string.  Consicutive line might have side effect for this. So, in your main code you have to use `eslint-disable` & `eslint-enable` block to by pass sideeffect. 
+It replaces `nunjuck` block with empty string. Consicutive line might have side effect for this. So, in your main code you have to use `eslint-disable` & `eslint-enable` block to bypass sideeffect. 
 
-Sample Code Usage
+Main Code Usage
 
 ```
     var test = 1;
@@ -57,5 +57,5 @@ Sample Code Usage
 
 Reference:
 
--  [1]: https://github.com/Alexnder/eslint-plugin-exclude-php-tags)
+- https://github.com/Alexnder/eslint-plugin-exclude-php-tags
 
