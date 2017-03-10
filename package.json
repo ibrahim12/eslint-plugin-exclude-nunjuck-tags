@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-exclude-nunjuck-tags",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A preprocessor to remove nunjuck tags",
   "keywords": [
     "eslint",
